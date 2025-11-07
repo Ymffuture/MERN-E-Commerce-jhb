@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://backend.example.com/:path*" }
+  ],
+  "redirects": [
+    { "source": "/old", "destination": "/new", "permanent": true }
+  ]
+}
+
